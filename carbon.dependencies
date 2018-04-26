@@ -1,21 +1,21 @@
 [
   {
-    "repository":   "AquariOS/kernel_google_wahoo",
+    "repository":   "munchycool/android_kernel_google_wahoo",
     "target_path":  "kernel/google/wahoo",
-    "branch":       "a8.1.0"
+    "branch":       "cr-6.10"
   },
   {
-    "repository":   "AquariOS/device_google_wahoo",
+    "repository":   "munchycool/device_google_wahoo",
     "target_path":  "device/google/wahoo",
     "branch":       "a8.1.0"
   },
   {
-    "repository":  "AquariOS/vendor_google",
+    "repository":  "munchycool/proprietary_vendor_google",
     "target_path": "vendor/google",
     "branch":      "a8.1.0"
   },
   {
-    "repository":  "AquariOS/vendor_pixelgapps",
+    "repository":  "munchycool/vendor_pixelgapps",
     "target_path": "vendor/pixelgapps",
     "branch":      "a8.1.0"
   }
