@@ -7,7 +7,7 @@
   {
     "repository":   "munchycool/device_google_wahoo",
     "target_path":  "device/google/wahoo",
-    "branch":       "a8.1.0"
+    "branch":       "RR-O"
   },
   {
     "repository":  "munchycool/proprietary_vendor_google",
