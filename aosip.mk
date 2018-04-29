@@ -13,11 +13,7 @@
 # limitations under the License.
 
 # Inherit Carbon GSM telephony parts
-$(call inherit-product, vendor/carbon/config/gsm.mk)
-
-# Inherit Carbon product configuration
-$(call inherit-product, vendor/carbon/config/common.mk)
-
+$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
@@ -37,7 +33,7 @@ PRODUCT_COPY_FILES += \
 -include vendor/ambientmusic/AmbientMusic.mk
 
 # Override AOSP build properties
-PRODUCT_NAME := carbon_walleye
+PRODUCT_NAME := aosip_walleye
 PRODUCT_DEVICE := walleye
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Pixel 2
