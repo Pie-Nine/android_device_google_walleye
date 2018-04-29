@@ -115,4 +115,6 @@
          during voice calls -->
     <bool translatable="false" name="config_wifi_framework_enable_voice_call_sar_tx_power_limit">true</bool>
 
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_enableSmartPixels">true</bool>
 </resources>
