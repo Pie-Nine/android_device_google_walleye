@@ -33,25 +33,26 @@ fi
 . "$HELPER"
 
 # Write custom header
-function write_walleye_headers() {
-    write_header "$ANDROIDMK"
+#function write_walleye_headers() {
+#    write_header "$ANDROIDMK"
 
-    cat << EOF >> "$ANDROIDMK"
-LOCAL_PATH := \$(call my-dir)
-EOF
-    cat << EOF >> "$ANDROIDMK"
-ifneq (\$(filter walleye,\$(TARGET_DEVICE)),)
-EOF
+#    cat << EOF >> "$ANDROIDMK"
+#LOCAL_PATH := \$(call my-dir)
+#EOF
+#    cat << EOF >> "$ANDROIDMK"
+#ifneq (\$(filter walleye,\$(TARGET_DEVICE)),)
+#EOF
 
-    write_header "$BOARDMK"
-    write_header "$PRODUCTMK"
-}
+#    write_header "$BOARDMK"
+#    write_header "$PRODUCTMK"
+#}
 
 # Initialize the helper
 setup_vendor "$DEVICE" "$VENDOR" "$LINEAGE_ROOT"
 
 # Copyright headers and guards
-write_walleye_headers
+#write_walleye_headers
+write_headers
 
 # The standard blobs
 write_makefiles "$MY_DIR"/device-proprietary-files.txt

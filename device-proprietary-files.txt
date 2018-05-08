@@ -26,6 +26,7 @@ etc/permissions/obdm_permissions.xml
 etc/permissions/privapp-permissions-wahoo.xml
 etc/permissions/vzw_mvs_permissions.xml
 etc/permissions/com.android.ims.rcsmanager.xml
+etc/permissions/com.android.vzwomatrigger.xml
 
 
 # Jars
@@ -93,7 +94,7 @@ lib/librcc.so
 -priv-app/AmbientSensePrebuilt/AmbientSensePrebuilt.apk
 
 # vendor-app
-vendor/app/QtiTelephonyService/QtiTelephonyService.apk;PRESIGNED
+vendor/app/QtiTelephonyService/QtiTelephonyService.apk
 vendor/app/wahoo_gfxdrv/wahoo_gfxdrv.apk
 
 #ambient
