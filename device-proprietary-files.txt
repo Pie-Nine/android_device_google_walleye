@@ -1,7 +1,3 @@
-# Camera
-etc/permissions/com.google.android.camera.experimental2017.xml
--framework/com.google.android.camera.experimental2017.jar
-
 # CNE
 etc/cne/Nexus/ATT/ATT_profiles.xml
 etc/cne/Nexus/ROW/ROW_profiles.xml
@@ -25,9 +21,6 @@ etc/permissions/features-verizon.xml
 etc/permissions/obdm_permissions.xml
 etc/permissions/privapp-permissions-wahoo.xml
 etc/permissions/vzw_mvs_permissions.xml
-etc/permissions/com.android.ims.rcsmanager.xml
-etc/permissions/com.android.vzwomatrigger.xml
-
 
 # Jars
 -framework/cneapiclient.jar;PRESIGNED
@@ -70,7 +63,6 @@ lib/librcc.so
 -app/Tycho/Tycho.apk;PRESIGNED
 -app/VZWAPNLib/VZWAPNLib.apk;PRESIGNED
 -app/vzw_msdc_api/vzw_msdc_api.apk;PRESIGNED
--app/EaselServicePrebuilt/EaselServicePrebuilt.apk
 
 # Priv-app
 -priv-app/CarrierServices/CarrierServices.apk;PRESIGNED
@@ -91,11 +83,3 @@ lib/librcc.so
 -priv-app/SprintDM/SprintDM.apk
 -priv-app/SprintHM/SprintHM.apk
 -priv-app/VzwOmaTrigger/VzwOmaTrigger.apk;PRESIGNED
--priv-app/AmbientSensePrebuilt/AmbientSensePrebuilt.apk
-
-# vendor-app
-vendor/app/QtiTelephonyService/QtiTelephonyService.apk
-vendor/app/wahoo_gfxdrv/wahoo_gfxdrv.apk
-
-#ambient
--etc/ambient/matcher_tah.leveldb
