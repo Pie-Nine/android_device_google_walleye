@@ -114,5 +114,8 @@
     <!-- Boolean indicating whether framework needs to set the tx power limit for meeting SAR requirements
          during voice calls -->
     <bool translatable="false" name="config_wifi_framework_enable_voice_call_sar_tx_power_limit">true</bool>
+     
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_enableSmartPixels">true</bool>
 
 </resources>
