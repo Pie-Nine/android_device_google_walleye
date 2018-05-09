@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rr_walleye.mk
+    $(LOCAL_DIR)/rr.mk
