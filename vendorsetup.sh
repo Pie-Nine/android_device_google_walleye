@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo carbon_walleye-userdebug
+add_lunch_combo nitrogen_walleye-userdebug
