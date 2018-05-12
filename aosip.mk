@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Inherit Carbon GSM telephony parts
+# Inherit AOSiP GSM telephony parts
 $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
 # Inherit from the common Open Source product configuration
@@ -42,5 +42,5 @@ PRODUCT_MANUFACTURER := Google
 # Device Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=walleye \
-    BUILD_FINGERPRINT=google/walleye/walleye:8.1.0/OPM2.171019.029/4657601:user/release-keys \
-    PRIVATE_BUILD_DESC="walleye-user 8.1.0 OPM2.171019.029 4657601 release-keys"
+    BUILD_FINGERPRINT=google/walleye/walleye:8.1.0/OPM2.171019.029.B1/4720900:user/release-keys \
+    PRIVATE_BUILD_DESC="walleye-user 8.1.0 OPM2.171019.029.B1 4720900 release-keys"
