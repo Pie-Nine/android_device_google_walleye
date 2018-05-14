@@ -12,12 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Inherit Carbon GSM telephony parts
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
+
+# Inherit RR product configuration
 $(call inherit-product, vendor/rr/config/common_full_phone.mk)
-
-# Inherit Carbon product configuration
-#$(call inherit-product, vendor/carbon/config/common.mk)
-
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
