@@ -15,4 +15,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aquarios.mk
+    $(LOCAL_DIR)/du.mk
+    $(LOCAL_DIR)/aosp_walleye.mk
+
