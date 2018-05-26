@@ -17,11 +17,8 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
 
-# Inherit Carbon GSM telephony parts
-$(call inherit-product, vendor/carbon/config/gsm.mk)
-
-# Inherit Carbon product configuration
-$(call inherit-product, vendor/carbon/config/common.mk)
+# Inherit ABC
+$(call inherit-product, vendor/nexus/configs/abc_phone.mk)
 
 
 # Inherit from the common Open Source product configuration
@@ -42,7 +39,7 @@ PRODUCT_COPY_FILES += \
 -include vendor/ambientmusic/AmbientMusic.mk
 
 # Override AOSP build properties
-PRODUCT_NAME := carbon_walleye
+PRODUCT_NAME := abc_walleye
 PRODUCT_DEVICE := walleye
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Pixel 2
