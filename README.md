@@ -74,25 +74,14 @@ https://github.com/LineageOS/android_kernel_google_wahoo/commit/f72373a0dc59437c
            sync-c="true"
            sync-j="4" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" groups="qcom,pdk" />
-  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960,pdk" />
-  <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994,pdk" />
-  <project path="hardware/qcom/msm8996" name="platform/hardware/qcom/msm8996" groups="qcom_msm8996" />
   <project path="hardware/qcom/msm8998" name="platform/hardware/qcom/msm8998" groups="qcom_msm8998" />
-  <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26,pdk" />
-  <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27,pdk" />
-  <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84,pdk" />
-  <project path="hardware/qcom/msm8x09" name="platform/hardware/qcom/msm8x09" groups="qcom_msm8x09" />
 </manifest>
 
 
-#i just copy it from carbon 
+# i just copy it from carbon 
 
 cp -r ~/carbon/hardware/qcom/data ~/rr/hardware/qcom/data
-cp -r ~/carbon/hardware/qcom/msm8960 ~/rr/hardware/qcom/msm8960
-cp -r ~/carbon/hardware/qcom/msm8994 ~/rr/hardware/qcom/msm8994
-cp -r ~/carbon/hardware/qcom/msm8996 ~/rr/hardware/qcom/msm8996
+
+
 cp -r ~/carbon/hardware/qcom/msm8998 ~/rr/hardware/qcom/msm8998
-cp -r ~/carbon/hardware/qcom/msm8x26 ~/rr/hardware/qcom/msm8x26
-cp -r ~/carbon/hardware/qcom/msm8x27 ~/rr/hardware/qcom/msm8x27
-cp -r ~/carbon/hardware/qcom/msm8x84 ~/rr/hardware/qcom/msm8x84
-cp -r ~/carbon/hardware/qcom/msm8x09 ~/rr/hardware/qcom/msm8x09
+
