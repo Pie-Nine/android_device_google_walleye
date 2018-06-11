@@ -63,7 +63,8 @@ if build boots directly into recovery, check this
 
 https://github.com/LineageOS/android_kernel_google_wahoo/commit/f72373a0dc59437ca189b3eb1ba993ca271c3aff
 
-<?xml version="1.0" encoding="UTF-8"?>
+also need 
+
 <manifest>
 
   <remote  name="aosp"
