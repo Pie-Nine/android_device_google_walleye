@@ -65,18 +65,18 @@ https://github.com/LineageOS/android_kernel_google_wahoo/commit/f72373a0dc59437c
 
 also need 
 
-<manifest>
+manifest
 
-  <remote  name="aosp"
+  remote  name="aosp"
            fetch="https://android.googlesource.com"
-           review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-8.1.0_r20"
+           review="https://android-review.googlesource.com/" 
+  default revision="refs/tags/android-8.1.0_r20"
            remote="aosp"
            sync-c="true"
-           sync-j="4" />
-  <project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" groups="qcom,pdk" />
-  <project path="hardware/qcom/msm8998" name="platform/hardware/qcom/msm8998" groups="qcom_msm8998" />
-</manifest>
+           sync-j="4" 
+  project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" groups="qcom,pdk" 
+  project path="hardware/qcom/msm8998" name="platform/hardware/qcom/msm8998" groups="qcom_msm8998" 
+manifest
 
 
 # i just copy it from carbon 
