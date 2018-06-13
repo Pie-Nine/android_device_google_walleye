@@ -41,6 +41,13 @@ git clone https://github.com/munchycool/vendor_pixelgapps -b a8.1.0 vendor/pixel
 
 git clone https://github.com/munchycool/nathan_kernel_google_wahoo -b oreo-m2 kernel/google/wahoo
 
+**Clone other packages needed for Settings to work**
+
+git clone https://github.com/LineageOS/android_external_bson -b lineage-15.1 external/bson
+
+git clone https://github.com/LineageOS/android_packages_resources_devicesettings -b lineage-15.1 packages/resources/devicesettings
+
+
 cd ~/rr
 
 . build/envsetup.sh
