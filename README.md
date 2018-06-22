@@ -40,7 +40,7 @@ git clone https://github.com/munchycool/vendor_pixelgapps -b a8.1.0 vendor/pixel
 
 **Clone kernel tree for wahoo (walleye + taimen)**
 
-git clone https://github.com/munchycool/android_kernel_google_wahoo -b cr-6.1 kernel/google/wahoo
+git clone https://github.com/munchycool/nathan_kernel_google_wahoo -b oreo-m2 kernel/google/wahoo
 
 
 cd ~/nitrogen
