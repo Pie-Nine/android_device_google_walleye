@@ -34,9 +34,13 @@ git clone https://github.com/munchycool/device_google_wahoo -b a8.1.0 device/goo
 
 git clone https://github.com/munchycool/device_google_walleye -b Nitrogen-O device/google/walleye
 
+**Clone gapps tree**
+
+git clone https://github.com/munchycool/vendor_pixelgapps -b a8.1.0 vendor/pixelgapps
+
 **Clone kernel tree for wahoo (walleye + taimen)**
 
-git clone https://github.com/munchycool/nathan_kernel_google_wahoo -b oreo-m2 kernel/google/wahoo
+git clone https://github.com/munchycool/android_kernel_google_wahoo -b cr-6.1 kernel/google/wahoo
 
 
 cd ~/nitrogen
@@ -50,11 +54,3 @@ enter number for walleye from the list
 make otapackage -jX (where X is any number which your computer can handle). If you do not know what X will be, just use
 
 make otapackage
-
-gapps no longer included in build.
-
-download gapps and follow installation instructions from below link.
-
-https://forum.xda-developers.com/pixel-2-xl/development/8-1-x-carbonrom-6r-5-1-t3735957
-
-#peace
