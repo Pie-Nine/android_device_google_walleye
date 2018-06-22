@@ -27,6 +27,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, device/google/walleye/device-walleye.mk)
 $(call inherit-product, vendor/google/walleye/walleye-vendor.mk)
 
+# Add gapps
+$(call inherit-product, vendor/pixelgapps/pixel-gapps.mk)
+
 # Audio effects
 PRODUCT_COPY_FILES += \
     device/google/walleye/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml
