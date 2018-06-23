@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo du_walleye-userdebug
+add_lunch_combo rr_walleye-userdebug

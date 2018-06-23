@@ -12,8 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Include DU common configuration
-include vendor/du/config/common_full_phone.mk
+# Inherit RR product configuration
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
@@ -24,7 +24,7 @@ $(call inherit-product, device/google/walleye/aosp_walleye.mk)
 
 
 # Override AOSP build properties
-PRODUCT_NAME := du_walleye
+PRODUCT_NAME := rr_walleye
 PRODUCT_DEVICE := walleye
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Pixel 2 
